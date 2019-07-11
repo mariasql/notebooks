@@ -9,3 +9,4 @@ dependencies:
     - sqlalchemy
     - pandas
     - matplotlib
+  - mssql-server
