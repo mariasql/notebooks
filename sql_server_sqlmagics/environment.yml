@@ -5,7 +5,7 @@ dependencies:
   - python
   - numpy
   - pip
-  - pip:
+  - pip3:
     - sqlalchemy
     - pandas
     - matplotlib
