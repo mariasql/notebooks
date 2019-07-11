@@ -1,0 +1,7 @@
+python
+python-pip
+gcc
+g++
+build-essential
+unixodbc-dev
+mssql-server
