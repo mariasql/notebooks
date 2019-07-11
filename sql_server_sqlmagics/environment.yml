@@ -2,9 +2,9 @@ name: sqlserver_sqlmagic
 channels:
   - conda-forge
 dependencies:
-  - python
+  - python3
   - numpy
-  - pip
+  - pip3
   - pip3:
     - sqlalchemy
     - pandas
