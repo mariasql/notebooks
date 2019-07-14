@@ -1,4 +1,4 @@
-echo '[sqlsrv]' | sudo tee -a odbcinst.ini
-echo 'Description=Microsoft ODBC Driver 17 for SQL Server ' | sudo tee -a odbcinst.ini
-echo 'Driver=/opt/microsoft/msodbcsql17/lib64/libmsodbcsql-17.3.so.1.1 ' | sudo tee -a odbcinst.ini
-echo 'UsageCount=1" ' | sudo tee -a odbcinst.ini
+echo "[sqlsrv] " >> odbcinst.ini
+echo "Description=Microsoft ODBC Driver 17 for SQL Server " >> odbcinst.ini
+echo "Driver=/opt/microsoft/msodbcsql17/lib64/libmsodbcsql-17.3.so.1.1 " >> odbcinst.ini
+echo "UsageCount=1" >> odbcinst.ini
