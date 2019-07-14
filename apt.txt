@@ -6,4 +6,4 @@ build-essential
 unixodbc-dev
 unixodbc
 python-pyodbc
-libsqliteodbc
+mssql-server

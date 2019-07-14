@@ -1,0 +1,2 @@
+export ACCEPT_EULA="Y"
+export SA_PASSWORD="ThisIsMostSecuire!1"
