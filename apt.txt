@@ -6,3 +6,4 @@ build-essential
 unixodbc-dev
 unixodbc
 python-pyodbc
+postgresql-10
