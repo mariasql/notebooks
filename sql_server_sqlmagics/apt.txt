@@ -4,4 +4,4 @@ gcc
 g++
 build-essential
 unixodbc-dev
-mssql-server
+unixodbc
