@@ -1,2 +1,4 @@
-export ACCEPT_EULA="Y"
-export SA_PASSWORD="ThisIsMostSecuire!1"
+echo "[sqlsrv] " >> /etc/odbcinst.ini
+echo "Description=Microsoft ODBC Driver 17 for SQL Server " >> /etc/odbcinst.ini
+echo "Driver=/opt/microsoft/msodbcsql17/lib64/libmsodbcsql-17.3.so.1.1 " >> /etc/odbcinst.ini
+echo "UsageCount=1" >> /etc/odbcinst.ini
