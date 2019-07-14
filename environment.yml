@@ -3,9 +3,10 @@ channels:
   - conda-forge
 dependencies:
   - python
-  - numpy
   - pip
   - pip:
     - sqlalchemy
     - pandas
     - matplotlib
+    - numpy
+    - pyodbc

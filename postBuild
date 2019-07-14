@@ -1,9 +1,0 @@
-sudo su
-echo "
-[sqlsrv]
-
-Description=Microsoft ODBC Driver 17 for SQL Server
-
-Driver=/opt/microsoft/msodbcsql17/lib64/libmsodbcsql-17.3.so.1.1
-
-UsageCount=1 " >> /etc/odbcinst.ini
